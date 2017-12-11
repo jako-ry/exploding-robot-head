@@ -20,20 +20,39 @@ body {
 
 .robot {
   width: 320px;
+  height: 240px;
 }
 
 .robot-body {
   width: 320px;
   position: absolute;
   left: 50%;
-  transform: translateX(-50%);
+  top: 3.4em;
+  transform: translate(-50%, 0%);
 }
 
 .robot-brain {
   width: 46px;
+  position: absolute;
+  left: 50%;
+  top: 3.4em;
+  transform: translate(-50%, 0%);
 }
 
-.robot-head-right,
+.robot-head-right {
+  width: 125px;
+  position: absolute;
+  left: 50%;
+  top: 1em;
+}
+
 .robot-head-left {
   width: 125px;
+  position: absolute;
+  right: 50%;
+  top: 1em;
+}
+
+.robot:hover {
+  height: 240px;
 }
